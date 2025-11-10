@@ -2,7 +2,7 @@
 
 Tested with Ubuntu / Mint based distros.
 
-For upgrading your workstations, read [UPGRADE.md](Upgrade.md).
+For upgrading your workstations, read [UPGRADE.md](UPGRADE.md).
 
 1. Install a standard Debian/Ubuntu server as boot server.
    ```

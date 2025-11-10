@@ -1,0 +1,8 @@
+polkit.addRule(function(action, subject) {
+    if(action.id == "org.freedesktop.udisks2.filesystem-unmount-others"
+    || action.id == "org.freedesktop.udisks2.open-device"
+    || action.id == "com.linuxmint.mintstick-format") {
+
+        return polkit.Result.YES;
+    }
+});

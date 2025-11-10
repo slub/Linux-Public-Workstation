@@ -1,0 +1,9 @@
+[Unit]
+Description=SLUB Startup
+
+[Service]
+Type=simple
+ExecStart=/opt/slub/startup.sh
+
+[Install]
+WantedBy=multi-user.target display-manager.service

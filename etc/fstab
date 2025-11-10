@@ -1,0 +1,30 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+#UUID=6f45b5fd-372a-4ff4-b58f-6d1b970f9a54 /               ext4    errors=remount-ro 0       1
+#UUID=963E-D98E  /boot/efi       vfat    umask=0077      0       1
+#/swapfile                                 none            swap    sw              0       0
+
+### SLUB NETBOOT
+proc        /proc   proc    defaults    0   0
+/dev/nfs    /       nfs     nolock      1   1
+
+# necessary ramdisks so that the system starts without errors
+none    /tmp                tmpfs   defaults    0   0
+none    /var/run            tmpfs   defaults    0   0
+none    /var/tmp            tmpfs   defaults    0   0
+none    /var/log            tmpfs   defaults    0   0
+none    /var/lib/lightdm    tmpfs   defaults    0   0
+none	/var/lib/lightdm-data	tmpfs	defaults	0	0
+none    /media              tmpfs   defaults    0   0
+none    /var/spool/cups     tmpfs   defaults    0   0
+none    /var/cache/cups     tmpfs   defaults    0   0
+none    /var/cache/boomaga  tmpfs   defaults    0   0
+none    /var/lib/private/systemd/timesync tmpfs defaults 0 0
+
+none    /home/administrator   tmpfs   defaults    0   0
+# /home/www(en) ramdisk is mounted on xsession-startup in ordner to reset the profile every time

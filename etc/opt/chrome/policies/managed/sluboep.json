@@ -1,0 +1,20 @@
+{
+  "DefaultBrowserSettingEnabled": true,
+  "SyncDisabled": true,
+  "BrowserSignin": 0,
+  "ShowFullUrlsInAddressBar": true,
+  "ProxyPacUrl": "http://proxyserver.example.com/wpad.dat",
+  "ProxyMode": "pac_script",
+  "ExtensionInstallBlocklist": [
+    "*"
+  ],
+  "ExtensionInstallAllowlist": [
+    "cfhdojbkjhnklbpkdaibdccddilifddb",
+    "ekhagklcjbdpajgpjgmbionohlpdbjgc",
+    "dagcmkpagjlhakfdhnbomgmjdpkdklff",
+    "haiffjcadagjlijoggckpgfnoeiflnem",
+    "ohgndokldibnndfnjnagojmheejlengn",
+    "pebppomjfocnoigkeepgbmcifnnlndla",
+    "bpconcjcammlapcogcnnelfmaeghhagj"
+  ]
+}

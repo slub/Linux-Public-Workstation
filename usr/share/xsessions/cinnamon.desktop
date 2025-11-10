@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Cinnamon
+Comment=This session logs you into Cinnamon
+Exec=/bin/bash /opt/slub/session.sh
+Icon=
+Type=Application
+

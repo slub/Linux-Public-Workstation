@@ -1,0 +1,18 @@
+{
+    "policies":
+    {
+        "DisableFirefoxAccounts": true,
+        "CaptivePortal": false,
+        "DisableProfileRefresh": true,
+        "Homepage": {
+            "URL": "http://www.slub-dresden.de",
+            "Locked": true,
+            "StartPage": "homepage"
+        },
+        "Proxy": {
+            "Mode": "autoConfig",
+            "Locked": true,
+            "AutoConfigURL": "http://proxyserver.example.com/wpad.dat"
+        }
+    }
+}

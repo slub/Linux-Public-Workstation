@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Cinnamon (Software Rendering)
+Comment=This session logs you into Cinnamon (using software rendering)
+Exec=/bin/bash /opt/slub/session.sh
+Icon=
+Type=Application
+X-Ubuntu-Gettext-Domain=cinnamon
+X-GNOME-Provides=cinnamon2d
+

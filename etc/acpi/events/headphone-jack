@@ -1,0 +1,2 @@
+event=jack/headphone
+action=/opt/slub/pulse-fix.sh %e

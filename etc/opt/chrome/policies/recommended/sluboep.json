@@ -1,0 +1,9 @@
+{
+  "xDefaultSearchProviderEnabled": true,
+  "xDefaultSearchProviderIconURL": "https://ecosia.org/favicon.ico",
+  "xDefaultSearchProviderKeyword": "ecosia",
+  "xDefaultSearchProviderName": "Ecosia",
+  "xDefaultSearchProviderSearchURL": "https://www.ecosia.org/search?q={searchTerms}",
+  "xDefaultSearchProviderSuggestURL": "https://ac.ecosia.org?q={searchTerms}&mkt={language}&type=list",
+  "xDefaultSearchProviderNewTabURL": "https://www.ecosia.org"
+}

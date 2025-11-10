@@ -1,0 +1,11 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+
+# proxy settings
+http_proxy=http://proxyserver.example.com:3128/
+https_proxy=http://proxyserver.example.com:3128/
+ftp_proxy=http://proxyserver.example.com:3128/
+no_proxy="localhost,127.0.0.1,proxyserver.example.com"
+HTTP_PROXY=http://proxyserver.example.com:3128/
+HTTPS_PROXY=http://proxyserver.example.com:3128/
+FTP_PROXY=http://proxyserver.example.com:3128/
+NO_PROXY="localhost,127.0.0.1,proxyserver.example.com"

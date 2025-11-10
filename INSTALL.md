@@ -52,7 +52,7 @@ Tested with Ubuntu / Mint based distros.
      ```
      # general software installation (example)
      apt-get purge thunderbird pix simple-scan pidgin transmission-gtk rhythmbox brasero virtualbox-guest-utils celluloid warpinator hypnotix mintreport mintwelcome timeshift webapp-manager sticky mint-l-icons mint-l-theme mintchat
-     apt-get install openssh-server dconf-cli dconf-editor bookletimposer htop mc xprintidle gimp inkscape audacity zenity
+     apt-get install openssh-server dconf-cli dconf-editor bookletimposer htop mc xprintidle gimp inkscape audacity zenity xprintidle
 
      # no CUPS auto discovery
      systemctl disable cups-browsed

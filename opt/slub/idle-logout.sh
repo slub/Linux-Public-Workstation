@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# needs: zenity
+# needs: zenity xprintidle
 # This script shows a warning and automatically logs out the user after a certain time.
 
 WARN_TIME=$((10*60*1000)) # time in seconds for warning message

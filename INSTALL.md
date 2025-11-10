@@ -2,6 +2,8 @@
 
 Tested with Ubuntu / Mint based distros.
 
+For upgrading your workstations, read [UPGRADE.md](Upgrade.md).
+
 1. Install a standard Debian/Ubuntu server as boot server.
    ```
    apt install nfs-kernel-server tftp-hpa isc-dhcp-server

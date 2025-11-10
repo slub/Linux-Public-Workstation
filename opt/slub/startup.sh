@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# needs: ethtool
 # startup script, called once on computer startup via systemd service
 
 # try to mount swap partition

@@ -54,7 +54,7 @@ For upgrading your workstations, read [UPGRADE.md](UPGRADE.md).
      ```
      # general software installation (example)
      apt-get purge thunderbird pix simple-scan pidgin transmission-gtk rhythmbox brasero virtualbox-guest-utils celluloid warpinator hypnotix mintreport mintwelcome timeshift webapp-manager sticky mint-l-icons mint-l-theme mintchat
-     apt-get install openssh-server dconf-cli dconf-editor bookletimposer htop mc xprintidle gimp inkscape audacity zenity xprintidle
+     apt-get install openssh-server dconf-cli dconf-editor bookletimposer htop mc gimp inkscape audacity zenity xprintidle ethtool
 
      # no CUPS auto discovery
      systemctl disable cups-browsed

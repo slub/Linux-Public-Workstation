@@ -11,7 +11,7 @@ Updates to the network boot image can be applied comfortably on the server shell
 2. Update via chroot:
    ```
    # go into image dir
-   cd oep_lm_x64_4
+   cd lm_x64_2
 
    # bind-mount /dev und /sys from host to image
    # (required by apt)
@@ -46,5 +46,5 @@ Updates to the network boot image can be applied comfortably on the server shell
    ```
 
 3. Boot from the new image.
-   - Start with one single test computer by creating `/srv/tftp/pxelinux.cfg/01-ca-ff-ee-ca-ff-ee` where ca-ff-ee-ca-ff-ee is the MAC address of the test computer.
+   - Start with one single test computer by creating `/srv/tftp/pxelinux.cfg/01-ca-ff-ee-ca-ff-ee` from `/srv/tftp/pxelinux.cfg/default` where ca-ff-ee-ca-ff-ee is the MAC address of the test computer. Adjust the path to the NFS mount (`lm_x64_2`). Do not forget to allow NFS read access to the new image in `/etc/exports`.
    - If everything works well, adjust `/srv/tftp/pxelinux.cfg/default` accordingly.
